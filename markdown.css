@@ -12,31 +12,31 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	color: #000000;
-	font-size: min(28pt,3vw);
+	font-size: max(28pt,3vw);
 }
 
 h2 {
 	border-bottom: 1px solid #CCCCCC;
 	color: #000000;
-	font-size: min(24px,2.75vw);
+	font-size: max(24px,2.75vw);
 }
 
 h3 {
-	font-size: min(18px,2.5vw);
+	font-size: max(18px,2.5vw);
 }
 
 h4 {
-	font-size: min(16px,2.25vw);
+	font-size: max(16px,2.25vw);
 }
 
 h5 {
-	font-size: min(14px,2vw);
+	font-size: max(14px,2vw);
 }
 
 h6 {
 	color: #777777;
 	background-color: inherit;
-	font-size: min(14px,1.75vw);
+	font-size: max(14px,1.75vw);
 }
 
 hr {
@@ -47,7 +47,7 @@ hr {
 }
 
 p, blockquote, ul, ol, dl, li, table, pre {
-	font-size: min(12px,1.5vw);
+	font-size: max(12px,1.5vw);
 	margin: 15px 0;
 }
 
@@ -87,7 +87,7 @@ a, a:visited {
 }
 
 button, #ws {
-	font-size: min(10pt,1.25vw);
+	font-size: max(10pt,1.25vw);
 	padding: 4px 6px;
 	border-radius: 5px;
 	border: 1px solid #bbb;
@@ -96,7 +96,7 @@ button, #ws {
 
 code, pre, #ws, #message {
 	font-family: "JetBrains Mono", Monaco, monospace;
-	font-size: min(10pt,1.25vw);
+	font-size: max(10pt,1.25vw);
 	border-radius: 3px;
 	background-color: #F8F8F8;
 	color: inherit;
